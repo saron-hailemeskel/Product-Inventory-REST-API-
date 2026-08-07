@@ -1,0 +1,24 @@
+{
+  "name": "product-inventory-rest-api-",
+  "version": "1.0.0",
+  "description": "A RESTful Product Inventory API built with Node.js and Express.js that performs CRUD operations, search, filtering, input validation, and inventory value calculations using an in-memory JavaScript array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saron-hailemeskel/Product-Inventory-REST-API-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saron-hailemeskel/Product-Inventory-REST-API-/issues"
+  },
+  "homepage": "https://github.com/saron-hailemeskel/Product-Inventory-REST-API-#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
