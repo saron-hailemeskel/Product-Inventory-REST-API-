@@ -5,7 +5,8 @@ const productController = require("../controllers/productControllers");
 
 router.get("/search", productController.searchProducts);
 
-router.get("/category/:category", productController.filterByCategory);
+router.get("/category/:category", productController.filterByCategoryParams);
+router.get("/search", productController.filterByCategoryQuery);
 
 router.get("/price/:price", productController.getProductsUnderPrice);
 
@@ -23,6 +24,6 @@ router.post("/",productController.createProduct);
 
 router.put("/:id", productController.updateProduct);
 
-router.delete("/:id", productController.deleteProduct);
+router.delete("id", productController.deleteProduct);
 
 module.exports = router;
